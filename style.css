@@ -1,0 +1,51 @@
+body {
+    background-color:gray;
+}
+
+.card {
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    box-shadow: 1px 2px 39px -2px rgba(0,0,0,0.29);
+    transition: 0,8s;
+}
+
+.card img {
+    height: 500px;
+    width: 400px;
+}
+
+
+.card :hover{
+    background-color: greenyellow;
+    box-shadow: 0 16px 32px 0 rgba(0 0 0 0.8);
+}
+.box {
+    width: 600px;
+text-align:justify;
+}
+.button {
+    background-color: black;
+    border-radius: 10px;
+    float: left;
+    color: white;
+    height: 40px;
+    width: 100px ;
+}
+.box-button {
+    width: 600px;
+    height: 50px;
+}
+.container{
+    background-color: white;
+    height: 1400px;
+    width: 1200px;
+    border-radius: 10px;
+}
+.tranparan{
+    background-color: transparent;
+    border-color: transparent;
+    float: left;
+    height: 40px;
+    width: 100px ;
+}
